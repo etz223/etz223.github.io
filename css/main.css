@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "";
+    src: url();
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root{
+    --variable : rgb(255,0,0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:var(--exemplevariable);
+}
+
+h1{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: futura;
+}
+
+
+main{
+    margin: 30px;
+    width: 20%;
+}
+
+img{ 
+    width: 200%;
+    margin-top: 10px;
+}
