@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "";
+    src: url();
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root{
+    --variable : rgb(255,0,0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:var(--exemplevariable);
+}
+
+h1{
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 300%;
+    font-family: futura;
+}
+
+
+main{
+    margin: 30px;
+    width: 20%;
+}
+
+img{ 
+    width: 400%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 25%;
+}
