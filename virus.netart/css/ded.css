@@ -1,0 +1,23 @@
+
+@keyframes img{
+
+    0%{opacity: 0%; }
+    70%{opacity: 100%; }
+    100%{opacity: 0%;}
+}
+
+img{
+
+    display: block;
+    justify-content: center;
+    margin-top: 70%;
+    margin-left: 2px;
+    margin-right: auto;
+    width: 90%;
+
+    animation: img 10s infinite;
+}
+
+body{
+    background-color: black;
+}
