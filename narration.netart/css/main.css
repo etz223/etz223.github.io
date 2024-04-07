@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "diego";
+    src: url(../src/fonts/diego-font/Diego-EaBMn.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root{
+    --variable : rgb(255,0,0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;  /* pas de scroll horizontale */
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    cursor: crosshair;
+    -webkit-animation-name: reveal;
+    animation-name: reveal;
+-webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+-webkit-animation-duration: 1s;
+    animation-duration: 1s;
+-webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+-webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    pointer-events: none;
+    box-sizing: border-box;
+    position: absolute;
+}  
+@-webkit-keyframes reveal {
+    100% {
+      opacity: 1;
+    }
+
+  }
+  
+@keyframes reveal {
+    100% {
+      opacity: 1;
+    }
+}
+
+
+main{
+    animation:positionchange 230s;
+    -webkit-animation: positionchange 230s;
+}
+
+@keyframes positionchange {
+0%{    margin-top: 0px;}
+5%{ margin-top: 20px}
+100% { margin-top: -35647.400px; }
+}
+
+@-webkit-keyframes positionchange {
+    0%{    margin-top: 0px;}
+    5%{ margin-top: 20px}
+    100% { margin-top: -35647.400px; }
+}
+
+
+#sky{
+    margin-top: -100px;
+}
+
+h1{
+    color: rgb(184, 214, 250);
+    font-family: baskerville;
+    font-size: 40px;
+    margin-top: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    z-index: 2;   
+}
+
+
+p{
+    color:rgb(184, 214, 250);
+    font-family: baskerville;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    z-index: 2;  
+
+}
+
+#ciel{
+    width: 130%;
+    height: 0%;
+    animation: changes 5s infinite;
+    z-index: 1;
+}
+@keyframes changes {
+    from { margin-left: 0px;}
+    50% { margin-left: -70px;}  
+    to { margin-left: 0px;}
+}
+
+#vague{
+    width: 130%;
+    height: 0%;
+    margin-bottom: -4px;
+    animation: change 4s infinite;
+}
+@keyframes change {
+    from { margin-left: 0px;}
+    50% { margin-left: -50px;}  
+    to { margin-left: 0px;}
+}
+
+.mur{
+    margin-top: 90px;
+    position: absolute;
+    width: 120%;
+    margin-left: -10%;
+    z-index: 3;
+}
+
+#man{
+    width: 20%;
+    z-index: 2;
+    position: fixed;
+}
+
+.mer{ 
+    margin-top: -10px;
+    width: 100%;
+    z-index: 1;;
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
