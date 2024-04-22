@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'fanwood' ;
+    src: url(../src/fonts/Fanwood_Text/FanwoodText-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'lexend';
+    src: url(../src/fonts/Lexend/static/Lexend-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'lineal';
+    src: url(../src/fonts/lineal-main/fonts/Static/OTF/Lineal-Regular.otf);
+}
+
+:root{
+    --variable : rgb(255,0,0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:var(--exemplevariable);
+}
+
+h1{
+    margin-top: 3%;
+    margin-bottom:15px ;
+    margin-left: 4% ;
+    margin-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'lineal';
+}
+ 
+button{
+    width: 40px;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    margin-left: 87%;
+    margin-right: auto;
+    position: fixed;
+
+    background-color: white;
+    border-color: white;
+    cursor:pointer;
+}
+
+#bars {
+
+    margin-top: 20px;
+}
+
+#one,#two,#the{
+    width:30px;
+    height:5px;
+    border-radius:5px;
+    background-color:black;
+    margin-top:5px;
+    transition:all 1s;
+
+    margin-left: 87%;
+    margin-right: auto
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    margin-top: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 2%;
+    position: relative;
+    
+}
+
+p{
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-right: 7%;
+    margin-bottom: 3%;
+    margin-right: 15%;
+    border-style: none none solid solid;
+    font-size: 12px;
+    font-style: normal;
+    font-family:'lexend';
+}
+
+
+img{
+    width: 100%;
+    margin-bottom: -4%;
+    border-radius: 2%;
+
+}
+
+#explication {
+    font-family: 'lexend';
+    position: absolute;
+    z-index: 1;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255);
+    margin-left: 5% ;
+    margin-right: 5%;
+    padding: 6%;
+
+    display:none;
+}
+
+img{
+    z-index: 2;
+}
+
+img.a1{ 
+   filter: opacity(75%) contrast(300%) saturate(200%) brightness(110%);
+}
+img.a2{
+    filter: hue-rotate(199deg) contrast(160%);
+}
+
+img.a3{
+    filter: contrast(120%);
+}
+
+img.a4{
+    filter: saturate(50%) brightness(150%) contrast(120%);
+}
+
+img.a5{
+    filter: saturate(200%) contrast(100%) sepia(100%);
+
+}
+
+img.a6{
+    filter: grayscale(100%) contrast(85%);
+    
+
+}
+
+img.a7{
+    filter:hue-rotate(199deg) contrast(160%);
+
+}
+
+img.a8{
+    filter : brightness(50%) contrast(110%);
+
+}
+
+img.a9{ 
+    filter: hue-rotate(200deg) saturate(200%);
+
+}
+
+img.a10{
+
+    filter: blur(1px) grayscale(50%) contrast(200%);
+
+}
+
+img.a11{
+    filter: sepia(100%) contrast(200%);
+
+}
+
+img.a12{
+    filter: blur(2px) sepia(100%);
+
+}
+
+img.a13{
+    filter: invert(100%) contrast(120%);
+
+}
+
+img.a14{
+    filter: opacity(70%) contrast(200%) saturate(200%);
+
+}
+
+img.a15{
+    filter: invert(80%) contrast(120%);
+
+}
+
+img.a16{
+    filter: brightness(120%) saturate(300%) contrast(250%);
+
+}
+
+img.a17{
+    filter: contrast(140%);
+
+}
+
+img.a18{
+    filter: saturate(300%) brightness(50%);
+}
+
+img.a19{
+    filter: sepia(100%) contrast(120%);
+
+}
+
+img.a20{
+    filter: hue-rotate(300deg) contrast(140%) brightness(120%);
+
+}
+
+img.a21{
+    filter: sepia(100%) contrast(200%) opacity(80%);
+
+}
+
+img.a22{
+    filter: saturate(0%) brightness(60%) contrast(140%);
+
+}
+
+img.a23{
+    filter: invert(30%) sepia(80%) contrast(190%) saturate(190%);
+
+}
+
+img.a24{
+    filter: hue-rotate(180deg) brightness(170%);
+
+}
+
+img.a25{
+    filter: grayscale(90%) contrast(140%);
+
+}
+
+img.a26{
+    filter: saturate(140%) contrast(900%) opacity(100%);
+
+}
+
+img.a27{
+    filter: contrast(800%) hue-rotate(30deg);
+
+}
+
+img.a28{
+    filter: saturate(80%);
+
+}
+
+img.a29{
+    filter: grayscale(100%) saturate(0%) brightness(120%);
+
+}
+
+img.a30{
+    filter: saturate(300%) brightness(540%);
+
+}
+
+img.a31{
+    filter: invert(100%) ;
+
+}
+
+img.a32{
+    filter: saturate(180%);
+
+}
+
+img.a33{
+    filter: saturate(0%) brightness(60%) contrast(130%);
+
+}
+
+img.a34{
+    filter: sepia(100%) saturate(200%);
+
+}
+
+img.a35{
+    filter: grayscale(100%) contrast(80%);
+
+}
+
+img.a36{
+    filter: brightness(180%) grayscale(100%);
+
+}
+
+img.a37{
+    filter: contrast(140%) opacity(80%);
+
+}
+
+img.a38{
+    filter: opacity(90%) saturate(200%) sepia(90%);
+
+}
+
+img.a39{
+    filter: contrast(90%) grayscale(200%); 
+
+}
+
+img.a40{
+    filter: grayscale(10%) sepia(100%) contrast(200%) opacity(90%);
+
+}
+
+img.a41{
+    filter: invert(30%) contrast(200%); 
+
+}
+
+img.a42{
+    filter: hue-rotate(220deg) saturate(200%) opacity(80%);
+
+}
